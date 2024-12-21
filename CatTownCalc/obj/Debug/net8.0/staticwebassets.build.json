@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T5u8VZ23KyxNTKgKeaZ3hExDlo+i0GW/88a5bulSPHs=",
+  "Hash": "xVrLOCPP9iVm/G/ELXJ8EKY7685FYc7KG1mGNkFdWd0=",
   "Source": "CatTownCalc",
   "BasePath": "_content/CatTownCalc",
   "Mode": "Default",
@@ -8,21 +8,63 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "CatTownCalc/wwwroot",
+      "Name": "CatTownCalc\\wwwroot",
       "Source": "CatTownCalc",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\",
       "BasePath": "_content/CatTownCalc",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/bundle/CatTownCalc.styles.css",
+      "Identity": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CatTownCalc.styles.css",
       "SourceId": "CatTownCalc",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "CatTownCalc.styles.css",
+      "RelativePath": "CatTownCalc#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,17 +73,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "xz95tksltn",
+      "Integrity": "3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/bundle/CatTownCalc.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CatTownCalc.styles.css"
     },
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/projectbundle/CatTownCalc.bundle.scp.css",
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CatTownCalc.bundle.scp.css",
       "SourceId": "CatTownCalc",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "CatTownCalc.bundle.scp.css",
+      "RelativePath": "CatTownCalc#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -50,85 +94,663 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "xz95tksltn",
+      "Integrity": "3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/obj/Debug/net8.0/scopedcss/projectbundle/CatTownCalc.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CatTownCalc.bundle.scp.css"
     },
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/app.css",
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\app.css",
       "SourceId": "CatTownCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "24qyfmdmut",
+      "Integrity": "so9iz2rN8+BTehS0CjO15c6hI9x48RE2+H+6QQFqJPw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CatTownCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "bootstrap/bootstrap.min.css",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CatTownCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\favicon.png",
       "SourceId": "CatTownCalc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/randalgovan/RiderProjects/BlazorApp1/CatTownCalc/wwwroot/",
+      "ContentRoot": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\",
       "BasePath": "_content/CatTownCalc",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\Test\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
+    {
+      "Route": "app.24qyfmdmut.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so9iz2rN8+BTehS0CjO15c6hI9x48RE2+H+6QQFqJPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 21:42:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24qyfmdmut"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-so9iz2rN8+BTehS0CjO15c6hI9x48RE2+H+6QQFqJPw="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so9iz2rN8+BTehS0CjO15c6hI9x48RE2+H+6QQFqJPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 21:42:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-so9iz2rN8+BTehS0CjO15c6hI9x48RE2+H+6QQFqJPw="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "CatTownCalc.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CatTownCalc.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI="
+        }
+      ]
+    },
+    {
+      "Route": "CatTownCalc.styles.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CatTownCalc.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI="
+        }
+      ]
+    },
+    {
+      "Route": "CatTownCalc.xz95tksltn.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CatTownCalc.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xz95tksltn"
+        },
+        {
+          "Name": "label",
+          "Value": "CatTownCalc.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI="
+        }
+      ]
+    },
+    {
+      "Route": "CatTownCalc.xz95tksltn.styles.css",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CatTownCalc.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xz95tksltn"
+        },
+        {
+          "Name": "label",
+          "Value": "CatTownCalc.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3c6Jg8/z4NkomUw3PGaEOsGfqghT+xwHH+ArMfO8AQI="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Test\\RiderProjects\\CatTownCalc\\CatTownCalc\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
     }
   ]
 }

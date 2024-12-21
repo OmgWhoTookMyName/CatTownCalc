@@ -38,9 +38,6 @@ public class OnChainDataUtility
             }
         ]";
 
-        // Address to test
-        //string testAddress = "0x8519081783C375Da414F8187c286fFF0d60b09F7";
-
         try
         {
             // Load the contract
@@ -87,9 +84,7 @@ public class OnChainDataUtility
                 ""type"": ""function""
             }
         ]";
-
-        // Address to test
-        //string testAddress = "0x8519081783C375Da414F8187c286fFF0d60b09F7";
+        
 
         try
         {
@@ -135,9 +130,7 @@ public class OnChainDataUtility
                               {'name':'pfpNFTBoost','type':'uint256'},
                               {'name':'stakedKibbleBoost','type':'uint256'}]}],
                 'type':'function'}]";
-
-        // Address to test
-        //string testAddress = "0x8519081783C375Da414F8187c286fFF0d60b09F7";
+        
 
         try
         {

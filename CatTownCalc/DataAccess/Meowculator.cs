@@ -1,5 +1,6 @@
 namespace CatTownCalc.DataAccess;
 
+using CatTownCalc.Model;
 //Script responsible for calculating time till next cat creation
 
 public class Meowculator
@@ -24,7 +25,7 @@ public class Meowculator
         int seconds = (int)Math.Truncate((secondsTillNextFullCat));
         
         // Get the current time
-        DateTime currentTime = DateTime.Now;
+        DateTime currentTime = DateTime.Now.ToUniversalTime();
 
         // Add seconds to the current time
         DateTime newTime = currentTime.AddSeconds(seconds);
@@ -49,5 +50,48 @@ public class Meowculator
             DateTime tomorrowTony = tonyClosingTime.AddDays(1);
             return tomorrowTony.Subtract(currentTime);
         }
+    }
+
+
+    public static List<TimeZones> GetAllTimezones(DateTime currentTime)
+    {
+        List<TimeZones> majorZones = new List<TimeZones>();
+    
+        // UTC
+        TimeZones utcTimeZone = new TimeZones()
+        {
+            timeZoneName = "UTC",
+            time = currentTime
+        };
+        majorZones.Add(utcTimeZone);
+    
+        // Eastern Standard Time (EST)
+        TimeZoneInfo easternZone = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
+        TimeZones estTimeZone = new TimeZones()
+        {
+            timeZoneName = "EST",
+            time = TimeZoneInfo.ConvertTimeFromUtc(currentTime, easternZone)
+        };
+        majorZones.Add(estTimeZone);
+    
+        // Central European Time (CET)
+        TimeZoneInfo cetZone = TimeZoneInfo.FindSystemTimeZoneById("Central European Standard Time");
+        TimeZones cetTimeZone = new TimeZones()
+        {
+            timeZoneName = "CET",
+            time = TimeZoneInfo.ConvertTimeFromUtc(currentTime, cetZone)
+        };
+        majorZones.Add(cetTimeZone);
+    
+        // Japan Standard Time (JST)
+        TimeZoneInfo jstZone = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+        TimeZones jstTimeZone = new TimeZones()
+        {
+            timeZoneName = "JST",
+            time = TimeZoneInfo.ConvertTimeFromUtc(currentTime, jstZone)
+        };
+        majorZones.Add(jstTimeZone);
+
+        return majorZones;
     }
 }

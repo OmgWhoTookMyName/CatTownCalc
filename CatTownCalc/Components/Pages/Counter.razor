@@ -1,23 +1,42 @@
-﻿@page "/counter"
+﻿@page "/"
 @using CatTownCalc.DataAccess
+@using CatTownCalc.Model
 @rendermode InteractiveServer
 
 <PageTitle>Cat Sell Timer</PageTitle>
+<MudThemeProvider/>
+<MudPopoverProvider/>
+
+<MudPaper Class="pa-16 ma-2;" Outlined="true" Elevation="3" Style="background-color: tan; padding: 16px;">
+    <MudDataGrid Items=tz Class="glass">
+        <ToolBarContent>
+            <MudStack>
+                <MudText Typo="Typo.h3">Merge Time Meowculator</MudText>
+                <MudStack Row="true">
+                    <MudTextField @bind-Value="userAddr" Label="Wallet Address" Variant="Variant.Text"></MudTextField>
+                    <MudSpacer/>
+                    <MudButton Variant="Variant.Filled" OnClick="GetPlayerCountAsync" Color="Color.Dark">Calculate</MudButton>
+                </MudStack>
+                <MudSpacer/>
+                <MudSpacer/>
+                <MudSpacer/>
+            </MudStack>
+        </ToolBarContent>
+        <Columns>
+            <PropertyColumn Property="x => x.timeZoneName" Title="Zone"/>
+            <PropertyColumn Property="x => x.time" Title="Name"/>
+        </Columns>
+    </MudDataGrid>
+    <MudText>Time left to get ticket from Tony: @timeTillTony</MudText>
+    <p role="status">Cat Counts: @kittyCount</p>
+    <p role="status">Floof Counts: @floofCount</p>
+</MudPaper>
 
 
-<h1>Merge Time Calculator</h1>
-
-<p role="status">Cat Counts: @kittyCount</p>
-<p role="status">Floof Counts: @floofCount</p>
-<p>Next time to merge: @currentDateTime</p>
-<p>Time left to get ticket from Tony: @timeTillTony</p>
 
 
-<!-- Text box with two-way binding -->
-<input type="text" @bind="userAddr" placeholder="Wallet Address here" />
 
-<!-- Submit button -->
-<button @onclick="GetPlayerCountAsync">Submit</button>
+
 
 @code {
     private int kittyCount = 0;
@@ -25,6 +44,8 @@
     private string userAddr = String.Empty;
     private DateTime currentDateTime;
     private TimeSpan timeTillTony;
+
+    private List<TimeZones> tz = new List<TimeZones>();
     
 
     private async void GetPlayerCountAsync()
@@ -34,6 +55,7 @@
         floofCount = await OnChainDataUtility.GetNumberOfFloofsAsync(userAddr);
         currentDateTime = Meowculator.CalculateNextTimeToSell(floofCount, kittyCount, bonus);
         timeTillTony = Meowculator.CalculateTimeTillTony();
+        tz = Meowculator.GetAllTimezones(currentDateTime);
     }
 
 }

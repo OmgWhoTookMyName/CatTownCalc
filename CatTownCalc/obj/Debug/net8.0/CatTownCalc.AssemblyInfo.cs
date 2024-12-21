@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatTownCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b798582902d66f1595d24445e31255304aaa31c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatTownCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatTownCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
