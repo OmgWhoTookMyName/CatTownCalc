@@ -1,0 +1,39 @@
+﻿@page "/counter"
+@using CatTownCalc.DataAccess
+@rendermode InteractiveServer
+
+<PageTitle>Cat Sell Timer</PageTitle>
+
+
+<h1>Merge Time Calculator</h1>
+
+<p role="status">Cat Counts: @kittyCount</p>
+<p role="status">Floof Counts: @floofCount</p>
+<p>Next time to merge: @currentDateTime</p>
+<p>Time left to get ticket from Tony: @timeTillTony</p>
+
+
+<!-- Text box with two-way binding -->
+<input type="text" @bind="userAddr" placeholder="Wallet Address here" />
+
+<!-- Submit button -->
+<button @onclick="GetPlayerCountAsync">Submit</button>
+
+@code {
+    private int kittyCount = 0;
+    private int floofCount = 0;
+    private string userAddr = String.Empty;
+    private DateTime currentDateTime;
+    private TimeSpan timeTillTony;
+    
+
+    private async void GetPlayerCountAsync()
+    {
+        float bonus = await OnChainDataUtility.GetTotalBonusesAsync(userAddr);
+        kittyCount = await OnChainDataUtility.GetNumberOfCatsAsync(userAddr);
+        floofCount = await OnChainDataUtility.GetNumberOfFloofsAsync(userAddr);
+        currentDateTime = Meowculator.CalculateNextTimeToSell(floofCount, kittyCount, bonus);
+        timeTillTony = Meowculator.CalculateTimeTillTony();
+    }
+
+}
